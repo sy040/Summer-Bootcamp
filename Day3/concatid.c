@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
-
 int main()
 {
     char name[100], id[50];
@@ -11,7 +9,7 @@ int main()
 
     if (name[strlen(name) - 1] == '\n')
         name[strlen(name) - 1] = '\0';
-        
+
     printf("Enter id: ");
     scanf("%s", id);
     int i;
