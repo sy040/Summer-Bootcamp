@@ -6,6 +6,7 @@ int main() {
     int n, i;
 
     printf("Enter string: ");
+    // fgets(str,100,stdin);
     scanf("%s", str);
 
     printf("Enter rotation: ");
