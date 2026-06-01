@@ -6,7 +6,7 @@ int main() {
     int n, i;
 
     printf("Enter string: ");
-    scanf("%99s", str);
+    scanf("%s", str);
 
     printf("Enter rotation: ");
     scanf("%d", &n);
