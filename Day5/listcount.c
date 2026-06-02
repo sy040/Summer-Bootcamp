@@ -36,7 +36,7 @@ int main(){
     for(i=0;i<=50;i++){
         printf("Enter values (-1 to exit): ");
         scanf("%d",&n);
-        if(n<=-1){
+        if(n==-1){
             break;
         }
         else{
