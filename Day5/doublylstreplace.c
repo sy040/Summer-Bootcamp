@@ -21,6 +21,7 @@ void createlst(int n){
     }
     else{
         temp->next=ptr;
+        ptr->prev=temp;
         temp=ptr;
     }
 }
