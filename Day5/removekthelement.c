@@ -47,7 +47,7 @@ void deletek(int k,int count){
     while(i<count-1 && temp!=NULL){     
         // prev=temp;
         if(i%k==0){
-
+            
             todel=temp;
             
             prev->next=temp->next;
