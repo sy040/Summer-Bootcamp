@@ -26,8 +26,21 @@ void createlst(int n){
     }
 }   
 
+void duplicate(int r){ //r=range
+    temp=tail;
+    int i,j;
+    int p1;
+    for(i=1;i<=r;i++){
+        p1=temp->data;
+        for(j=i+1;j<=r;j++){
+            
+        }
+    }
+
+}
 
 void display(){
+
     temp=tail;
     while(temp!=NULL){
         printf("%d ",temp->data);
