@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//Fixed-size subarrays
 int maxsum(int arr[],int n,int k){
     int s=0,ms=0,i;
     for(i=0;i<k;i++){
